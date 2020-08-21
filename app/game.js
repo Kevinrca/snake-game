@@ -1,3 +1,8 @@
+import { Snake } from "./snake.js";
+import { Apple } from "./apple.js";
+
+const displayScore = document.querySelector(".score");
+
 // Setup the game board
 const canvas = document.querySelector(".canvas");
 const ctx = canvas.getContext("2d");
